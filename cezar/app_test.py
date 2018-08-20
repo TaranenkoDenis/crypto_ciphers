@@ -4,7 +4,7 @@ import cezar_cipher
 def run_app():
     str_for_encryption = input(
         'Input string on english language for encription: ')
-    int_key = int(input('Input key (integer number from 1 to 26): '))
+    int_key = int(input('Input key (integer number from 1 to 90): '))
 
     cyphered_str = cezar_cipher.cipher(str_for_encryption, int_key)
 
